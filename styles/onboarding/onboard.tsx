@@ -1,5 +1,9 @@
 import { StyleSheet } from "react-native";
 import {
+  responsiveHeight,
+  responsiveWidth,
+} from "react-native-responsive-dimensions";
+import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
@@ -53,5 +57,14 @@ export const styles = StyleSheet.create({
   buttonText: {
     color: "#fff",
     textAlign: "center",
+  },
+  welcomeButton: {
+    backgroundColor: "#2467EC",
+    width: responsiveWidth(88),
+    height: responsiveHeight(5.5),
+    borderRadius: 5,
+    alignItems: "center",
+    alignSelf: "center",
+    justifyContent: "center",
   },
 });
