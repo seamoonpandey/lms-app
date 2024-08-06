@@ -29,7 +29,7 @@ export const commonStyles = StyleSheet.create({
     textAlign: "center",
   },
   dot: {
-    backgroundColor: "#2467ec",
+    backgroundColor: "#c6c7cc",
     width: responsiveWidth(2.5),
     height: responsiveWidth(2.5),
     borderRadius: 5,
